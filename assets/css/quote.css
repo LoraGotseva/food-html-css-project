@@ -1,0 +1,47 @@
+#quote {
+    background-image: url("../images/many-products-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-width: 1440px;
+    min-height: 800px;
+}
+
+
+#quote .container {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    padding-top: 350px;
+}
+
+#quote p,
+#quote span {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin:auto;
+}
+
+#quote p {
+    padding-bottom: 80px;
+
+}
+
+#quote::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(82, 29, 11, 0.7);
+}
+
+
+
+

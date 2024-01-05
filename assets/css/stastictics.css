@@ -1,0 +1,56 @@
+#statistics{
+    background-color: #1b6ec7;
+    min-width: 1440px;
+    max-height: 800px;
+}
+
+#statistics h2 {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px
+}
+
+#statistics .statistics-item .numbers {
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    margin: 0 auto;
+}
+
+#statistics .statistics-item span {
+
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#statistics .statistics-item .words {
+    padding-top:80px;
+    padding-bottom: 230px;
+}
+
+#statistics div.container.statistics-list {
+    justify-content: space-evenly;
+}
+
+#statistics .statistics-item {
+    flex: 1 1 auto;
+    text-align: center;
+}

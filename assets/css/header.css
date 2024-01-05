@@ -1,0 +1,83 @@
+header{
+    min-width: 1440px;
+    min-height: 800px;
+}
+
+header div.container.nav-container{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+    margin-left: 130px;
+}
+
+#logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+header nav{
+    flex-grow: 1;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a{
+    font-size: 23px;
+    letter-spacing: 0px;
+    line-height: 39px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    border-bottom: #b2fcff;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+header h1{
+    font-size: 150px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin-right: 500px;
+}
+
+header .background {
+    background-image: url('../images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .background div.container.banner {
+    margin-left: 130px;
+}
+
+header .background div.container.banner {
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+header .container.banner button{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: #1b6ec7;
+    border-radius: 25px;
+    padding: 15px 40px;
+    cursor: pointer;
+    border: none;
+    margin-top: 60px;
+}

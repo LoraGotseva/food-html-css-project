@@ -1,0 +1,61 @@
+#menu{
+    background-color: #ff7e58;
+    min-width: 1440px;
+    max-height: 800px;
+}
+
+#menu h2 {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: center;
+    padding-top: 90px;
+}
+#menu > p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 40px;
+}
+
+#menu div.container.menu-list {
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+#menu .menu-item {
+    flex: 1 1 30%;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#menu .menu-item img {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+#menu .menu-item h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#menu .menu-item p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 130px;
+}
